@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tech_categories",
+  "info": {
+    "singularName": "tech-category",
+    "pluralName": "tech-categories",
+    "displayName": "Tech Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "techCategories"
+    }
+  }
+}

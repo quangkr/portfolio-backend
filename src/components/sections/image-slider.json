@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_image_sliders",
+  "info": {
+    "displayName": "Image Slider",
+    "icon": "film"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_large_medias",
+  "info": {
+    "displayName": "Large media",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
